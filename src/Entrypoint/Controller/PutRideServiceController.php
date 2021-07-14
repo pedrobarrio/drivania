@@ -17,8 +17,8 @@ class PutRideServiceController extends AbstractController
     public function __invoke(Request $request)
     {
         $body = $this->getRequestBody($request);
-        $command = UpdateRideServiceCommand::fromPayload(
-        );
+//        $command = UpdateRideServiceCommand::fromPayload(
+//        );
 
         return new JsonResponse([], JsonResponse::HTTP_CREATED);
     }

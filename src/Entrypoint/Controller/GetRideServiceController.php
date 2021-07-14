@@ -11,7 +11,6 @@ class GetRideServiceController extends AbstractController
 {
     public function __invoke(Request $request)
     {
-
         return new JsonResponse([], JsonResponse::HTTP_CREATED);
     }
 }

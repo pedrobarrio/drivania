@@ -17,8 +17,8 @@ final class PostRideServiceController extends AbstractController
     {
         $body = $this->getRequestBody($request);
 
-        $command = CreateRideServiceCommand::fromPayload(
-        );
+//        $command = CreateRideServiceCommand::fromPayload(
+//        );
 
         return new JsonResponse([], JsonResponse::HTTP_CREATED);
     }
